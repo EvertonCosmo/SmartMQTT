@@ -6,14 +6,14 @@ const char* SSID = "brisa-466158";
 const char* PASSWORD =  "******";
 #define TOPIC_PUBLISHER_ULTRASSONIC "Ultrassonic"
 #define TOPIC_PUBLISHER_TEMPERATURE "Temperature"
-#define ID_MQTT
+
 WiFiClient espClient; // Create object 
 PubSubClient MQTT(espClient);// Instance MQQTT 
 
 // MQTT server 
 const char*  BROKER_MQTT  ="";
 int BROKER_PORT = ; 
-
+#define ID_MQTT "MQTTSMART"
 
 // Sensor Ultrassonic
 #define trigPin 12

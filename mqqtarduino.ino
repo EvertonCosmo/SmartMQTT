@@ -3,7 +3,7 @@
 
 // Network credentials
 const char* SSID = "brisa-466158";
-const char* PASSWORD =  "jldbrwwy";
+const char* PASSWORD =  "******";
 #define TOPIC_PUBLISHER_ULTRASSONIC "Ultrassonic"
 #define TOPIC_PUBLISHER_TEMPERATURE "Temperature"
 #define ID_MQTT
